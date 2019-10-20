@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace AccessModifiers
 {
     public class GoldCustomer : Customer
@@ -18,6 +17,7 @@ namespace AccessModifiers
         static void Main(string[] args)
         {
             var customer = new Customer();
+            Amazon.RateCalculator calculator = new RateCalculator();
         }
     }
 }
